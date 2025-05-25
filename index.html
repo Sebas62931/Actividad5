@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ejercicios Interactivos</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: url('prog.png') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: #ff007f;
+      color: white;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #ff007f;
+      color: white;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .contenedor {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .titulo-secundario {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+
+    .botones {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 20px;
+      width: 100%;
+      max-width: 600px;
+    }
+
+    .botones a {
+      background-color: #ff007f;
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 8px;
+      border: 2px solid #ffc080;
+      transition: 0.3s ease;
+    }
+
+    .botones a:hover {
+      background-color: #e60073;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    ¡BIENVENIDO!
+  </header>
+
+  <div class="contenedor">
+    <div class="titulo-secundario">Explora la galería de ejercicios</div>
+
+    <div class="botones">
+      <a href="pagina1.html">Ejercicio 1</a>
+      <a href="pagina2.html">Ejercicio 2</a>
+      <a href="pagina3.html">Ejercicio 3</a>
+      <a href="pagina4.html">Ejercicio 4</a>
+      <a href="pagina5.html">Ejercicio 5</a>
+      <a href="pagina6.html">Ejercicio 6</a>
+      <a href="pagina7.html">Ejercicio 7</a>
+      <a href="pagina8.html">Ejercicio 8</a>
+      <a href="pagina9.html">Ejercicio 9</a>
+    </div>
+  </div>
+
+  <footer>
+    ¡SEBASTIAN FERNANDO VALENCIA TALANCHA!
+  </footer>
+
+</body>
+</html>
